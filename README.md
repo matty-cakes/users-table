@@ -14,7 +14,6 @@ I wanted to play with YAWF (yet another web framework) and I really didn't feel 
 
 - You likely don't 😊
 - You'll love how high tech this is tech bros!
-- Copy the docker-compose file  in full or just copy the `db` and `networks` stanzas where ever you want them to go.
 - Copy the Makefile and update the `APP` and `PGPASSWORD` vars in the Makefile so the database is unique and secure. Or just supply them at run time (`make setup APP=x PGPASSWORD=y`).__Warning__: if you forget to pass `APP=x` it will default to `app` so your Docker volumes CAN get confusing.
 - Run `make setup`
 - When you are done with it clean up using `make clean`
